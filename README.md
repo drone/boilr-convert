@@ -1,4 +1,4 @@
-# boilr-validate
+# boilr-convert
 
 This is a [boilr template](https://github.com/tmrts/boilr) for creating a conversion extension. Use a conversion extension to convert or modify the Drone configuration file. For example, convert from Jsonnet to Yaml. Get started by cloning the project and installing the template:
 
