@@ -44,14 +44,14 @@ func main() {
 		spec.Bind = ":3000"
 	}
 
-	handler := validator.Handler(
-		spec.Secret,
+	handler := converter.Handler(
 		plugin.New(
 			// TODO replace or remove these configuration
 			// parameters. They are for demo purposes only.
 			spec.Param1,
 			spec.Param2,
 		),
+		spec.Secret,
 		logrus.StandardLogger(),
 	)
 
