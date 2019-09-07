@@ -6,6 +6,6 @@ package plugin
 
 import "testing"
 
-func TestValidate(t *testing.T) {
+func TestPlugin(t *testing.T) {
 	t.Skip()
 }
