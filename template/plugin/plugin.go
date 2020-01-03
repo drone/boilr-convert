@@ -6,8 +6,9 @@ package plugin
 
 import (
 	"context"
-	"errors"
+	"strings"
 
+	"github.com/drone/drone-go/drone"
 	"github.com/drone/drone-go/plugin/converter"
 )
 
